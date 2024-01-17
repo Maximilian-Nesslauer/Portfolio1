@@ -1,0 +1,98 @@
+/* Enhanced style.css */
+
+/* General styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364); /* Subtle gradient background */
+    color: #d4d8e8;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+a {
+    color: #4b8bec;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #62a4d8;
+}
+
+/* Header styling */
+header {
+    background-color: rgba(28, 35, 49, 0.85);
+    color: #4b8bec;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Navigation styling */
+nav {
+    background-color: rgba(20, 32, 43, 0.85);
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 14px 16px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #1c2331;
+}
+
+/* Section styling */
+section {
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(22, 32, 42, 0.85);
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+section h2 {
+    color: #4b8bec;
+}
+
+/* Contact section styling */
+section#contact a {
+    font-size: 1.5em;
+    margin: 10px;
+}
+
+section#contact a i {
+    margin-right: 8px;
+}
+
+/* Footer styling */
+footer {
+    background-color: rgba(28, 35, 49, 0.85);
+    color: #4b8bec;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.3);
+}
